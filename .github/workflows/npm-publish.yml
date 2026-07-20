@@ -48,7 +48,7 @@ jobs:
         id: package
         run: |
           package_version="$(node -p "require('./packages/ui/package.json').version")"
-          if npm view "@24letters/ui@${package_version}" version >/dev/null 2>&1; then
+          if pnpm view "@24letters/ui@${package_version}" version >/dev/null 2>&1; then
             echo "exists=true" >> "$GITHUB_OUTPUT"
           else
             echo "exists=false" >> "$GITHUB_OUTPUT"

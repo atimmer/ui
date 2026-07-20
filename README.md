@@ -61,7 +61,7 @@ The stylesheet contains Tailwind CSS v4 sources and requires the consuming appli
 
 The tag starts GitHub Actions that verify the repository, publish `@24letters/ui` to npm with trusted publishing and provenance, and create a GitHub release from the matching changelog section.
 
-Before the first automated release, an npm owner must create the package and configure its trusted publisher. See [PUBLISHING.md](./PUBLISHING.md) for the one-time manual steps.
+The npm trusted publisher is configured for GitHub Actions. See [PUBLISHING.md](./PUBLISHING.md) for the complete release procedure.
 
 ## License
 
