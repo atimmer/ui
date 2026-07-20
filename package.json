@@ -9,6 +9,7 @@
     "test": "vp run -r test"
   },
   "devDependencies": {
+    "typescript": "~6.0.2",
     "vite-plus": "catalog:"
   },
   "devEngines": {

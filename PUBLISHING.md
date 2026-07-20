@@ -1,6 +1,6 @@
 # Publishing `@24letters/ui`
 
-Publishing follows the same tag-driven GitHub Actions model as `@24letters/devservers`. The public GitHub repository and npm's trusted publishing provide provenance without storing a long-lived npm token in GitHub. The workflows use Node.js 24, pnpm 11, and Node 24-compatible action versions.
+Publishing follows the same tag-driven GitHub Actions model as `@24letters/devservers`. The public GitHub repository and npm's trusted publishing provide provenance without storing a long-lived npm token in GitHub. The workflows use Node.js 24, pnpm 11, Node 24-compatible action versions, and the stable TypeScript declaration generator used by local publishing. CI exercises the complete package-local publishing lifecycle with a dry run.
 
 ## One-time setup
 
