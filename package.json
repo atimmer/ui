@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "ready": "vp check && vp run -r test && vp run -r build",
+    "ready": "vp run -r build && vp check && vp run -r test",
     "dev": "vp run @24letters/ui-showcase#dev",
     "build": "vp run -r build",
     "test": "vp run -r test"

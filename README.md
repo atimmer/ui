@@ -24,6 +24,8 @@ Run the complete verification suite with:
 vp run ready
 ```
 
+The ready task builds workspace dependencies first, then formats, lints, type-checks, and tests the repository so it behaves the same on a clean CI checkout.
+
 ## Using the package
 
 Install the package and its React peer dependencies:
