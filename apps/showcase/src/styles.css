@@ -1,0 +1,19 @@
+@import "@24letters/ui/styles.css";
+
+body {
+  min-width: 320px;
+  min-height: 100svh;
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  color: var(--primary-foreground);
+  background: var(--primary);
+}
