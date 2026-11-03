@@ -7,7 +7,7 @@
 ### Fixed
 
 - Darkened the light-mode muted text color so secondary text reaches WCAG AA contrast (at least 4.5:1) on every surface it appears on.
-- On touch devices, buttons, toggles, checkboxes, radio buttons, switches, slider thumbs, select triggers, tabs, accordion triggers, navigation and menubar triggers, and sidebar actions now have a tappable area of at least 44×44px without changing how they look; keyboard shortcut hints are hidden.
+- On touch devices, buttons, toggles, checkboxes, radio buttons, switches, slider thumbs, select triggers, tabs, accordion triggers, and navigation menu triggers now have a tappable area of at least 44×44px without changing how they look, unless a neighboring control overlaps that area; keyboard shortcut hints are hidden.
 
 ## 0.1.1 - 2026-07-20
 
