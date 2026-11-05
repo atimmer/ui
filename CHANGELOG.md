@@ -10,7 +10,8 @@
 - On touch devices, buttons, toggles, checkboxes, radio buttons, switches, slider thumbs, select triggers, tabs, accordion triggers, and navigation menu triggers now have a tappable area of at least 44×44px without changing how they look, unless a neighboring control overlaps that area; keyboard shortcut hints are hidden.
 - Unchecked checkboxes and radio buttons now have a border with at least 3:1 contrast against the surfaces they sit on, through a new `--control-border` token, so they are visible on white. Focus keeps that border and adds the ring around it, and invalid controls in dark mode use a full-strength red border.
 - Focus rings are solid and use a darker ring color, so keyboard focus reaches at least 3:1 contrast against light surfaces.
-- On touch devices, items in dropdown menus, context menus, menubars, comboboxes, command lists, and selects are at least 44px tall.
+- When touch is the primary pointer, items in dropdown menus, context menus, menubars, comboboxes, command lists, and selects are at least 44px tall.
+- When touch is the primary pointer, native selects are 44px tall, since a native select can't take an invisible tap area.
 
 ## 0.1.1 - 2026-07-20
 
