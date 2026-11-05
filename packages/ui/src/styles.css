@@ -27,7 +27,7 @@
   --border: oklch(0.93 0.007 106.5);
   --input: oklch(0.93 0.007 106.5);
   --control-border: oklch(0.63 0.02 107);
-  --ring: oklch(0.737 0.021 106.9);
+  --ring: oklch(0.6 0.031 107.3);
   --chart-1: oklch(0.845 0.143 164.978);
   --chart-2: oklch(0.696 0.17 162.48);
   --chart-3: oklch(0.596 0.145 163.225);
@@ -137,7 +137,7 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border outline-ring;
   }
 
   body {
